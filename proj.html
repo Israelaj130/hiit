@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="projstyle.css">
+</head>
+<body>
+    <header>
+        <i id="hamburger" class="solid lines"></i>
+        <div class="img-coat">
+            <img src="coat of arm.jpg" alt="coat of arm">
+        </div>
+        <nav>
+            <ul id="navs" class="hide-ul">
+                <li onclick="changeSection(0)">
+                    Home
+                </li>
+                <li onclick="changeSection(1)">
+                    About
+                </li>
+                <li onclick="changeSection(2)">
+                    Contact
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            This is home page
+        </section>
+        <section>
+            This is About page
+        </section>
+        <section class="showSection">
+        <div class="box">
+            <div class="left">
+                <img src="WhatsApp Image 2024-09-02 at 13.27.43_e831efee.jpg" alt="bus">
+            </div>
+            <div class="right">
+                <p class="contact">Contact Us</p>
+                <br>
+                <form action="">
+                    <input type="text" placeholder="Your Name"><br>
+                    <input type="email" placeholder="Your Email"><br>
+                    <input type="text" placeholder="Your Phone"><br>
+                    <textarea name="" id="" placeholder="Message"></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        copyright 2024, all right reserved
+    </footer>
+
+    <script src="proj.js"></script>
+</body>
+</html>
